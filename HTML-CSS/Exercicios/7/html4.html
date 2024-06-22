@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo de Tag HTML</title>
+<style>
+    /* Estilo para a tag */
+    .tag {
+        display: none; /* Inicialmente escondido */
+        position: absolute; /* Posição absoluta */
+        background-color: yellow; /* Cor de fundo */
+        padding: 2px; /* Espaçamento interno */
+        border: 1px solid black; /* Borda */
+    }
+    /* Estilo para exibir ao passar o mouse */
+    .termo:hover .tag {
+        display: block; /* Exibir ao passar o mouse */
+    }
+</style>
+</head>
+<body>
+    <p>Passe o mouse sobre <span class="termo">esse termo <span class="tag">&lt;span&gt;</span></span> para ver a tag utilizada.</p>
+</body>
+</html>
