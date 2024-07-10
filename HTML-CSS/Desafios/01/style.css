@@ -21,7 +21,6 @@ body {
   height: 200px;
   margin: 0 auto;
   border-radius: 14px;
-  grid: 0%;
 
 box-shadow: 10px 10px 25px #b88d31, -10px -10px 25px rgb(184, 141, 49);
 backdrop-filter: blur(24px);
@@ -262,4 +261,11 @@ overflow: hidden;
   100% {
     transform: translate(-100%, -100%) translate3d(0, 0, 0);
   }
+}
+
+@media screen and (max-width: 479px) {
+    Body {
+        display: grid;
+        grid-template: 1fr auto;
+    }
 }
